@@ -1,45 +1,26 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 ## 0.3.11 (2025-02-23)
 
 **Note:** Version bump only for package @ivuorinen/prettier-config
 
-
-
-
-
 ## 0.3.10 (2025-02-23)
-
 
 ### Bug Fixes
 
-* **deps:** update globals to 16.0.0 ([#342](https://github.com/ivuorinen/base-configs/issues/342)) ([04b333b](https://github.com/ivuorinen/base-configs/commit/04b333b445b6beb4344d2f9102bb5d3dc72ae26a))
-
-
-
-
+- **deps:** update globals to 16.0.0 ([#342](https://github.com/ivuorinen/base-configs/issues/342)) ([04b333b](https://github.com/ivuorinen/base-configs/commit/04b333b445b6beb4344d2f9102bb5d3dc72ae26a))
 
 ## 0.3.9 (2025-01-17)
 
-
 ### Bug Fixes
 
-* **deps:** update eslint-config-prettier to 10.0.1 ([#324](https://github.com/ivuorinen/base-configs/issues/324)) ([8a0d38e](https://github.com/ivuorinen/base-configs/commit/8a0d38e173df40b771d42b694a24145559200506))
-
-
-
-
+- **deps:** update eslint-config-prettier to 10.0.1 ([#324](https://github.com/ivuorinen/base-configs/issues/324)) ([8a0d38e](https://github.com/ivuorinen/base-configs/commit/8a0d38e173df40b771d42b694a24145559200506))
 
 ## [0.3.8](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/prettier-config@0.3.7...@ivuorinen/prettier-config@0.3.8) (2024-12-09)
 
 **Note:** Version bump only for package @ivuorinen/prettier-config
-
-
-
-
 
 ## 0.3.7 (2024-11-25)
 
@@ -77,14 +58,14 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @ivuorinen/prettier-config
 
-# [0.3.0](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/prettier-config@0.2.16...@ivuorinen/prettier-config@0.3.0) (2024-08-21)
+## [0.3.0](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/prettier-config@0.2.16...@ivuorinen/prettier-config@0.3.0) (2024-08-21)
 
-- feat!: module & commonjs in prettier ([12ea368](https://github.com/ivuorinen/base-configs/commit/12ea3688ad61ea5b21762225b9b41b30a1995198))
-- feat!: module & commonjs in prettier ([8d3dbd8](https://github.com/ivuorinen/base-configs/commit/8d3dbd89e8dbaaa2df12eb9900fdf0cfa566a65c))
+- feat!: module & commonjs in prettier
+  - ([12ea368](https://github.com/ivuorinen/base-configs/commit/12ea3688ad61ea5b21762225b9b41b30a1995198))
+  - ([8d3dbd8](https://github.com/ivuorinen/base-configs/commit/8d3dbd89e8dbaaa2df12eb9900fdf0cfa566a65c))
 
 ### BREAKING CHANGES
 
-- support module, and commonjs types
 - support module, and commonjs types
 
 ## [0.2.16](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/prettier-config@0.2.15...@ivuorinen/prettier-config@0.2.16) (2024-07-16)
@@ -175,7 +156,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **deps:** update dependency prettier to v3 ([#58](https://github.com/ivuorinen/base-configs/issues/58)) ([15e815a](https://github.com/ivuorinen/base-configs/commit/15e815a53d46bb369cb2d7c0eb7b54474245afee))
 
-# [0.2.0](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/prettier-config@0.1.2...@ivuorinen/prettier-config@0.2.0) (2023-10-25)
+## [0.2.0](https://github.com/ivuorinen/base-configs/compare/@ivuorinen/prettier-config@0.1.2...@ivuorinen/prettier-config@0.2.0) (2023-10-25)
 
 ### Features
 
