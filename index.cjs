@@ -2,7 +2,7 @@
 
 module.exports = {
   arrowParens: 'avoid',
-  proseWrap: 'never',
+  proseWrap: 'preserve',
   semi: false,
   singleQuote: true,
   trailingComma: 'none',

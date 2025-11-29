@@ -38,9 +38,9 @@ jobs:
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           always-auth: true
-          node-version-file: ".nvmrc"
-          registry-url: "https://registry.npmjs.org"
-          scope: "@ivuorinen"
+          node-version-file: '.nvmrc'
+          registry-url: 'https://registry.npmjs.org'
+          scope: '@ivuorinen'
 
       - name: Cache Node Modules
         uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4.2.3
