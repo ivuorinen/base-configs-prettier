@@ -30,14 +30,16 @@ After installing it, a _`.prettierrc.json`_ file will be created automatically i
 "@ivuorinen/prettier-config"
 ```
 
-> Note: This method does **not** offer a way to _extend_ the configuration to overwrite some properties from the shared configuration. If you need to do that, import the file in a _`.prettierrc.js`_ file and export the modifications, e.g:
+> Note: This method does **not** offer a way to _extend_ the configuration to overwrite some properties from the shared configuration.
+>
+> If you need to do that, import the file in a _`.prettierrc.js`_ file and export the modifications, e.g:
 >
 > ```js
 > module.exports = {
->   ...require("@ivuorinen/prettier-config"),
+>   ...require('@ivuorinen/prettier-config'),
 >   // Add custom options below:
->   semi: true,
-> };
+>   semi: true
+> }
 > ```
 
 ## Documentations
@@ -46,7 +48,8 @@ Read the [Prettier docs][prettier-docs-link] for more information.
 
 ## Contributing
 
-If you are interested in helping contribute, please take a look at our [contribution guidelines][contributing-link] and open an [issue][issue-link] or [pull request][pull-request-link].
+If you are interested in helping contribute, please take a look at our [contribution guidelines][contributing-link]
+and open an [issue][issue-link] or [pull request][pull-request-link].
 
 ## Changelog
 
