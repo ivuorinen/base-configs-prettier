@@ -1,3 +1,34 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# 1.0.0 (2025-12-06)
+
+
+### Bug Fixes
+
+* **github-action:** update github/codeql-action (v3.29.0 → v3.29.2) ([#2](https://github.com/ivuorinen/base-configs-prettier/issues/2)) ([1b20c1e](https://github.com/ivuorinen/base-configs-prettier/commit/1b20c1e709e9d35fa2504e6880546a16ffc6c589))
+* **github-action:** update github/codeql-action (v3.29.2 → v3.29.4) ([#5](https://github.com/ivuorinen/base-configs-prettier/issues/5)) ([9cfcfad](https://github.com/ivuorinen/base-configs-prettier/commit/9cfcfade75332a571316a746e4627a92e4908db9))
+* **github-action:** update github/codeql-action (v3.29.4 → v3.29.5) ([#8](https://github.com/ivuorinen/base-configs-prettier/issues/8)) ([d39048b](https://github.com/ivuorinen/base-configs-prettier/commit/d39048b0bca8a457dcab10ecfc394ba5c7eb08f8))
+* **github-action:** update github/codeql-action (v3.29.5 → v3.29.8) ([#10](https://github.com/ivuorinen/base-configs-prettier/issues/10)) ([7d678c6](https://github.com/ivuorinen/base-configs-prettier/commit/7d678c618e81f346a2b168e9d75fea5d964b910b))
+* **github-action:** update github/codeql-action (v3.29.8 → v3.29.9) ([#14](https://github.com/ivuorinen/base-configs-prettier/issues/14)) ([8991fd3](https://github.com/ivuorinen/base-configs-prettier/commit/8991fd3c7cfc1ca7da6565ae7ecbbd51ee1d4b2a))
+* **github-action:** update github/codeql-action (v3.29.9 → v3.29.10) ([#15](https://github.com/ivuorinen/base-configs-prettier/issues/15)) ([18e124f](https://github.com/ivuorinen/base-configs-prettier/commit/18e124fe8c1db1473bbf8e03928cbb7beb4dc6fa))
+* **github-action:** update ivuorinen/actions (25.7.14 → 25.7.21) ([#6](https://github.com/ivuorinen/base-configs-prettier/issues/6)) ([0810f5a](https://github.com/ivuorinen/base-configs-prettier/commit/0810f5a846ade9902445a67b3a4f67abc3f3e0b0))
+* **github-action:** update ivuorinen/actions (25.7.21 → 25.7.28) ([#7](https://github.com/ivuorinen/base-configs-prettier/issues/7)) ([9800573](https://github.com/ivuorinen/base-configs-prettier/commit/98005733c03a7d1dcd35b9d9170937eeb40e318c))
+* **github-action:** update ivuorinen/actions (25.7.7 → 25.7.14) ([#4](https://github.com/ivuorinen/base-configs-prettier/issues/4)) ([1864bb1](https://github.com/ivuorinen/base-configs-prettier/commit/1864bb181f8cb380ef918ebeaec5f5eb169b0aeb))
+* **github-action:** update ivuorinen/actions (25.8.4 → 25.8.11) ([#13](https://github.com/ivuorinen/base-configs-prettier/issues/13)) ([d7f5fbd](https://github.com/ivuorinen/base-configs-prettier/commit/d7f5fbdbdd825fdc538cae58b27ee4fb559e8a6b))
+* **github-release:** update renovatebot/pre-commit-hooks (41.82.7 → 41.82.8) ([#26](https://github.com/ivuorinen/base-configs-prettier/issues/26)) ([311f49b](https://github.com/ivuorinen/base-configs-prettier/commit/311f49b92afd2b2207ed17bd2837cf6360ef6f97))
+* **github-release:** update renovatebot/pre-commit-hooks (41.82.8 → 41.82.10) ([#27](https://github.com/ivuorinen/base-configs-prettier/issues/27)) ([1722edd](https://github.com/ivuorinen/base-configs-prettier/commit/1722eddfe29d3b9810f8ed13f4ff4242cb802d2a))
+
+
+### Features
+
+* **github-action:** update ivuorinen/actions (25.6.17 → 25.7.7) ([#3](https://github.com/ivuorinen/base-configs-prettier/issues/3)) ([545c850](https://github.com/ivuorinen/base-configs-prettier/commit/545c85063219c7db5480f0236561e0f3eaeb143b))
+* **github-action:** update ivuorinen/actions (25.7.28 → 25.8.4) ([#9](https://github.com/ivuorinen/base-configs-prettier/issues/9)) ([f0b05b9](https://github.com/ivuorinen/base-configs-prettier/commit/f0b05b9b4391cd9803fafd026831bb926333f213))
+* initial import from base-configs ([8332ead](https://github.com/ivuorinen/base-configs-prettier/commit/8332ead96d2f10dee3c609c3408f6e8b9c67b86f))
+* release pipeline, packages, yarn upgrade ([0b352c4](https://github.com/ivuorinen/base-configs-prettier/commit/0b352c4b052b53ba401da4ab431f16abbb77f5b9))
+
 # Change Log
 
 All notable changes to this project will be documented in this file.
