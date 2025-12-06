@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@ivuorinen/config-checker@^1.1.10":
-  version "1.1.11"
-  resolved "https://registry.yarnpkg.com/@ivuorinen/config-checker/-/config-checker-1.1.11.tgz#55a91c7b23725d2f1bb0e678d53638af1f034125"
-  integrity sha512-9nyiuhMprc8zxsZSxONnVS2CHd4Ad0Xl7EEXWMeiF0iuHeyu2RenHYZBZo2rv863vpaw5C9MJFXjsW7NEIGQpg==
+"@ivuorinen/config-checker@^2.0.0":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@ivuorinen/config-checker/-/config-checker-2.1.1.tgz#0dfec8461e7082fb6d15282191155a8c5153c76f"
+  integrity sha512-qBz4G6ldmY3pCorV9LoDQoB02ihrevBQrFOyf3NeDA++dkxbWDNDiiT0a1cO5rw7ak0A+utbFMuWTR1G5Yus5g==
 
 prettier@^3:
   version "3.5.2"
