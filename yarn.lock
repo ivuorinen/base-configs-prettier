@@ -91,10 +91,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ivuorinen/config-checker@npm:^2.0.0, @ivuorinen/config-checker@npm:^2.1.2":
-  version: 2.1.2
-  resolution: "@ivuorinen/config-checker@npm:2.1.2"
-  checksum: 10c0/e607eb7196a6c50309b654bb0cd46f64501f2a5ba211933bb73a43a6316b7455b563579a387778d00f31885d0fcf04d3d055aa1bd6ddf580dccca76cbb22d6fd
+"@ivuorinen/config-checker@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "@ivuorinen/config-checker@npm:2.2.1"
+  checksum: 10c0/3f4a0d2e19b651fc32a30330e10ef3fadb7a4f1087f0af48f521686c7759624c9f9fd2cc961b26407ed3d57797887ada5c8d2855143052478b274d6d5017cd45
   languageName: node
   linkType: hard
 
@@ -102,21 +102,21 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ivuorinen/prettier-config@workspace:."
   dependencies:
-    "@ivuorinen/config-checker": "npm:^2.1.2"
-    "@ivuorinen/semantic-release-config": "npm:^1.2.0"
-    prettier: "npm:^3"
+    "@ivuorinen/config-checker": "npm:^2.2.1"
+    "@ivuorinen/semantic-release-config": "npm:^1.2.1"
+    prettier: "npm:^3.8.1"
   languageName: unknown
   linkType: soft
 
-"@ivuorinen/semantic-release-config@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "@ivuorinen/semantic-release-config@npm:1.2.0"
+"@ivuorinen/semantic-release-config@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "@ivuorinen/semantic-release-config@npm:1.2.1"
   dependencies:
-    "@ivuorinen/config-checker": "npm:^2.0.0"
+    "@ivuorinen/config-checker": "npm:^2.2.1"
     "@semantic-release/github": "npm:^12.0.6"
-    conventional-changelog-conventionalcommits: "npm:^9.0.0"
-    semantic-release: "npm:^25.0.2"
-  checksum: 10c0/945c5d5c64240656a588fd9b4d97e4c606f882d43ad1609809d7c35f7896d7dd950749e70ca703cd7a060658213f635b94589abb04c2398ec9ac02870f12d722
+    conventional-changelog-conventionalcommits: "npm:^9.3.1"
+    semantic-release: "npm:^25.0.3"
+  checksum: 10c0/836d6d1bf24efc3685c1ca682039df31013763fb6239be3d72e3c06c6c61c5c6fa5e2a5b129eb6789ac5058af8070d3f74f0cf551aba4a92b5b442816cd4c85b
   languageName: node
   linkType: hard
 
@@ -1063,7 +1063,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-conventionalcommits@npm:^9.0.0":
+"conventional-changelog-conventionalcommits@npm:^9.3.1":
   version: 9.3.1
   resolution: "conventional-changelog-conventionalcommits@npm:9.3.1"
   dependencies:
@@ -2961,7 +2961,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3":
+"prettier@npm:^3.8.1":
   version: 3.8.1
   resolution: "prettier@npm:3.8.1"
   bin:
@@ -3200,7 +3200,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:^25.0.2":
+"semantic-release@npm:^25.0.3":
   version: 25.0.3
   resolution: "semantic-release@npm:25.0.3"
   dependencies:
