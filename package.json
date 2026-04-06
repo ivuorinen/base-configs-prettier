@@ -43,11 +43,11 @@
     "postinstall": "node scripts/postinstall.cjs"
   },
   "dependencies": {
-    "@ivuorinen/config-checker": "^2.1.2",
-    "prettier": "^3"
+    "@ivuorinen/config-checker": "^2.2.1",
+    "prettier": "^3.8.1"
   },
   "packageManager": "yarn@4.13.0",
   "devDependencies": {
-    "@ivuorinen/semantic-release-config": "^1.2.0"
+    "@ivuorinen/semantic-release-config": "^1.2.1"
   }
 }
