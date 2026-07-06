@@ -1,6 +1,6 @@
 {
   "name": "@ivuorinen/prettier-config",
-  "version": "1.0.1",
+  "version": "1.0.17",
   "type": "module",
   "description": "ivuorinen's shareable configuration for Prettier.",
   "author": {
@@ -43,11 +43,16 @@
     "postinstall": "node scripts/postinstall.cjs"
   },
   "dependencies": {
-    "@ivuorinen/config-checker": "^2.1.1",
-    "prettier": "^3"
+    "@ivuorinen/config-checker": "^2.2.1",
+    "prettier": "^3.8.1"
   },
-  "packageManager": "yarn@4.12.0",
+  "packageManager": "yarn@4.17.0",
   "devDependencies": {
-    "@ivuorinen/semantic-release-config": "^1.0.0"
+    "@ivuorinen/semantic-release-config": "^1.2.1"
+  },
+  "resolutions": {
+    "brace-expansion": "^5.0.6",
+    "picomatch": "^4.0.4",
+    "undici": "^8.0.0"
   }
 }
