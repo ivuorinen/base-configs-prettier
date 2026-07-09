@@ -2,5 +2,7 @@
   "extends": [
     "@ivuorinen/semantic-release-config"
   ],
-  "branches": ["main"]
+  "branches": [
+    "main"
+  ]
 }

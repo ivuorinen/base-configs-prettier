@@ -30,7 +30,10 @@ After installing it, a _`.prettierrc.json`_ file will be created automatically i
 "@ivuorinen/prettier-config"
 ```
 
-> Note: This method does **not** offer a way to _extend_ the configuration to overwrite some properties from the shared configuration. If you need to do that, import the file in a _`.prettierrc.js`_ file and export the modifications, e.g:
+> Note: This method does **not** offer a way to _extend_ the configuration to
+> overwrite some properties from the shared configuration. If you need to do
+> that, import the file in a _`.prettierrc.js`_ file and export the
+> modifications, e.g:
 >
 > ```js
 > module.exports = {
