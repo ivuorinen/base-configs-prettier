@@ -7,7 +7,14 @@ const path = require('node:path')
 // noinspection NpmUsedModulesInstalled
 const process = require('node:process')
 const checkConfig = require('@ivuorinen/config-checker')
-const foundConfig = checkConfig('prettier')
+
+// This runs on every consumer install, and a non-zero exit fails that whole
+// install. The starter config is a convenience, so every step below degrades to
+// a message instead of throwing.
+
+// INIT_CWD is an npm/yarn convention, not a guarantee.
+const cwd = process.env.INIT_CWD || process.cwd()
+const foundConfig = checkConfig('prettier', cwd)
 
 if (foundConfig.length > 0) {
   console.log('prettier-config: Found existing prettier config file, skipping creation.')
@@ -16,9 +23,16 @@ if (foundConfig.length > 0) {
   process.exit(0)
 }
 
-const filePath = path.join(process.env.INIT_CWD, '.prettierrc.json')
+const filePath = path.join(cwd, '.prettierrc.json')
 const fileConfigObject = '@ivuorinen/prettier-config'
 
-if (!fs.existsSync(filePath)) {
-  fs.writeFileSync(filePath, JSON.stringify(fileConfigObject, undefined, 2))
+// 'wx' makes "does it exist?" and "write it" one atomic step, so a concurrent
+// install cannot create the file in between and have it overwritten.
+try {
+  fs.writeFileSync(filePath, JSON.stringify(fileConfigObject, undefined, 2), { flag: 'wx' })
+} catch (error) {
+  if (error.code !== 'EEXIST') {
+    console.log(`prettier-config: could not write ${filePath} (${error.code || error.message}).`)
+    console.log(`prettier-config: create it manually containing: "${fileConfigObject}"`)
+  }
 }

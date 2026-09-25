@@ -2,9 +2,10 @@
 # zizmor configuration: https://docs.zizmor.sh/configuration/
 rules:
   adhoc-packages:
-    # corepack must be bootstrapped globally; no lockfile applies
+    # test.yml's Node 26 leg has no bundled corepack; it installs a pinned
+    # copy with install scripts disabled, and no lockfile applies to a global tool.
     ignore:
-      - publish.yml
+      - test.yml
   use-trusted-publishing:
     # npm trusted publishing requires registry-side setup; tracked separately
     ignore:

@@ -24,24 +24,34 @@ npm install @ivuorinen/prettier-config --save-dev
 yarn add @ivuorinen/prettier-config --dev
 ```
 
-After installing it, a _`.prettierrc.json`_ file will be created automatically in the project's root folder with the following configuration:
+Create a _`.prettierrc.json`_ in the project's root folder with the following configuration:
 
 ```json
 "@ivuorinen/prettier-config"
 ```
 
+With npm, a `postinstall` script writes exactly this file when the project has no Prettier config yet (npm 11 warns
+that the script is not covered by `allowScripts`). Yarn 4 does not run dependency install scripts, so no file is
+written. pnpm refuses unapproved install scripts and fails the install until you allow this package with
+`pnpm approve-builds`. In both cases create the file by hand as above — without it Prettier silently formats with its
+own defaults.
+
 > Note: This method does **not** offer a way to _extend_ the configuration to
 > overwrite some properties from the shared configuration. If you need to do
-> that, import the file in a _`.prettierrc.js`_ file and export the
+> that, import it in a _`prettier.config.mjs`_ file and export the
 > modifications, e.g:
 >
 > ```js
-> module.exports = {
->   ...require("@ivuorinen/prettier-config"),
+> import ivuorinenConfig from '@ivuorinen/prettier-config'
+>
+> export default {
+>   ...ivuorinenConfig,
 >   // Add custom options below:
->   semi: true,
-> };
+>   semi: true
+> }
 > ```
+>
+> The `.mjs` extension keeps the file an ES module whether or not your `package.json` sets `"type": "module"`.
 
 ## Documentations
 
@@ -49,7 +59,7 @@ Read the [Prettier docs][prettier-docs-link] for more information.
 
 ## Contributing
 
-If you are interested in helping contribute, please take a look at our [contribution guidelines][contributing-link] and open an [issue][issue-link] or [pull request][pull-request-link].
+If you are interested in helping contribute, please open an [issue][issue-link] or [pull request][pull-request-link].
 
 ## Changelog
 
@@ -62,10 +72,9 @@ Distributed under the MIT License. See [LICENSE][license-link] for more informat
 [changelog-link]: https://github.com/ivuorinen/base-configs-prettier/releases
 [prettier-docs-link]: https://prettier.io
 [prettier-link]: https://github.com/prettier/prettier
-[contributing-link]: https://github.com/ivuorinen/.github/blob/main/CONTRIBUTING.md
 [issue-link]: https://github.com/ivuorinen/base-configs-prettier/issues
 [license-badge]: https://img.shields.io/github/license/ivuorinen/base-configs-prettier?style=flat-square&labelColor=292a44&color=663399
-[license-link]: ./LICENSE
+[license-link]: ./LICENSE.md
 [npm-badge]: https://img.shields.io/npm/v/@ivuorinen/prettier-config?style=flat-square&labelColor=292a44&color=663399
 [npm-link]: https://www.npmjs.com/package/@ivuorinen/prettier-config
 [pull-request-link]: https://github.com/ivuorinen/base-configs-prettier/pulls
