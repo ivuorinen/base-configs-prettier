@@ -40,7 +40,8 @@
     "url": "git+https://github.com/ivuorinen/base-configs-prettier.git"
   },
   "scripts": {
-    "postinstall": "node scripts/postinstall.cjs"
+    "postinstall": "node scripts/postinstall.cjs",
+    "test": "node --test"
   },
   "dependencies": {
     "@ivuorinen/config-checker": "^2.2.1",
