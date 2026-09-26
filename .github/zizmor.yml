@@ -6,7 +6,3 @@ rules:
     # copy with install scripts disabled, and no lockfile applies to a global tool.
     ignore:
       - test.yml
-  use-trusted-publishing:
-    # npm trusted publishing requires registry-side setup; tracked separately
-    ignore:
-      - publish.yml
