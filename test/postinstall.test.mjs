@@ -41,6 +41,9 @@ test('writes the starter config when the project has none', () => {
 
     assert.strictEqual(result.status, 0, result.stderr)
     assert.strictEqual(readConfig(root), EXPECTED)
+    // The file lands in the consumer's repo, where EditorConfig and formatters
+    // expect a final newline.
+    assert.ok(fs.readFileSync(path.join(root, CONFIG_NAME), 'utf8').endsWith('"\n'), '.prettierrc.json should end with a newline')
   } finally {
     fs.rmSync(root, { recursive: true, force: true })
   }
