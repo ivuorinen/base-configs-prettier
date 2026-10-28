@@ -44,7 +44,7 @@
     "test": "node --test"
   },
   "dependencies": {
-    "@ivuorinen/config-checker": "^2.2.1",
+    "@ivuorinen/config-checker": "^2.7.0",
     "prettier": "^3.8.1"
   },
   "packageManager": "yarn@4.18.1",
